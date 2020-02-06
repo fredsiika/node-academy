@@ -1,25 +1,44 @@
-/*
- * Title: Basic Node Example
- * Description: Simple file that declares a few functions and invokes them.
- * Author: Fred Siika
+/**
+ * @tutorial Basic Node Example
+ * @description Simple file that declares a few functions and invokes them
+ * @author Fred Siika
  */
 
-// Dependencies 
+ /** Step 1. Dependencies - @todo List dependencies */ 
 
+/** Step 2. App Object - @todo create an app object */ 
 
-// App object 
+/** Step 3. Configuration - @todo Add the app configuration */
 
+/** Step 4. Print A Joke
+ * @function app.printAJoke();  
+ * @todo create a function that prints a random joke 
+**/  
 
-// Configuration 
+function() {
+    // Get all the jokes
 
+    // Get the length of the jokes
 
-// Function that prints a random joke 
+    // Pick a random number between 1 and the number of jokes
 
+    // Get the joke at that position in the array (minus one)
 
-// Function that loops indefinitely, calling the printAJoke function as it goes // Invoke the loop
+    // Send the joke to the console
+};  
 
+/**
+ * Step 5. Create indefinite Loop
+ * @function app.indefiniteLoop();
+ * @todo create a function that loops indefinitely, calling the @function printAJoke(); as it goes.
+ */
 
+function() {
     // Create the interval, using the config variable defined above
 
+};
 
-// Invoke the loop
+/** Step 6. Invoke the loop 
+ * @function app.indefiniteLoop();
+ * @todo Start the app by calling the @function app.indefiniteLoop(); 
+**/
