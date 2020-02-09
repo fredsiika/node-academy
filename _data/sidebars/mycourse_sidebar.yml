@@ -1,0 +1,53 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: "Node Academy"
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+      - title: 
+        url: /titlepage.html
+        output: pdf
+        type: frontmatter
+      - title:
+        url: /tocpage.html
+        output: pdf
+        type: frontmatter
+  
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: About this course
+      url: /mycourse_outline.html
+      output: web, pdf
+      type: homepage
+
+    - title: Who this course is for
+      url: /mycourse_outline.html
+      output: web, pdf
+    
+    - title: Course prerequisites
+      url: /mycourse_outline.html
+      output: web, pdf
+  
+  - title: Anatomy of a Node App
+    output: web, pdf
+    folderitems:
+
+    - title: What is Node
+      url: /mycourse_anatomy-of-a-node-app.html
+      output: web, pdf
+
+    - title: Common Node Conventions
+      url: /mycourse_anatomy-of-a-node-app.html
+      output: web, pdf
+    
+    - title: "Coding Challenge 1: Create Web Server"
+      url: /mycourse_create-web-server.html
+      output: web, pdf

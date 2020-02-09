@@ -6,10 +6,10 @@ repository: fredsiika/node-academy
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: Implementation Engineer Project
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: Node Academy | Implementation Engineer Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Fred Siika Consulting
@@ -34,9 +34,10 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
+
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: "Node Academy documentation"
 
 feedback_email: fredsiika@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
@@ -77,7 +78,7 @@ defaults:
       comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mycourse_sidebar
       topnav: topnav
   -
     scope:
@@ -97,7 +98,7 @@ defaults:
       comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
-      sidebar: home_sidebar
+      sidebar: mycourse_sidebar
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
@@ -105,6 +106,7 @@ defaults:
 sidebars:
 - home_sidebar
 - mydoc_sidebar
+- mycourse_sidebar
 - product1_sidebar
 - product2_sidebar
 - other
