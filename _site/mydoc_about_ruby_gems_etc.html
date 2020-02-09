@@ -41,7 +41,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="documentation-theme-jekyll" href="http://localhost:4000/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="node-academy" href="http://localhost:4000/feed.xml">
 
     <script>
         $(document).ready(function() {
@@ -179,7 +179,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:tomjoht@gmail.com?subject=Jekyll documentation theme feedback&body=I have some feedback about the About Ruby, Gems, Bundler, and other prerequisites page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:fredsiika@gmail.com?subject=Jekyll documentation theme feedback&body=I have some feedback about the About Ruby, Gems, Bundler, and other prerequisites page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 </li>
 
@@ -223,7 +223,7 @@
                 
 
 <ul id="mysidebar" class="nav">
-  <li class="sidebarTitle">Jekyll Doc Theme 6.0</li>
+  <li class="sidebarTitle">Jekyll Doc Theme 6.0 6.0</li>
   
   
   
@@ -771,7 +771,7 @@ $('#toc').on('click', 'a', function() {
 
     
 
-    <a target="_blank" rel="noopener" href="https://github.com/tomjoht/documentation-theme-jekyll/blob/gh-pages/pages/mydoc/mydoc_about_ruby_gems_bundler.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    <a target="_blank" rel="noopener" href="https://github.com/fredsiika/node-academy/blob/gh-pages/pages/mydoc/mydoc_about_ruby_gems_bundler.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
 
     
 
@@ -793,7 +793,7 @@ $('#toc').on('click', 'a', function() {
 
 <p>Not only does Bundler retrieve the right gem dependencies, but it’s smart enough to retrieve the right versions of each gem. For example, if you get the <a href="https://rubygems.org/gems/github-pages">github-pages</a> gem, it will retrieve all of these other gems:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>github-pages-health-check = 1.1.0
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>github-pages-health-check = 1.1.0
 jekyll = 3.0.3
 jekyll-coffeescript = 1.0.1
 jekyll-feed = 0.4.0
@@ -831,7 +831,7 @@ terminal-table ~&gt; 1.
 
 <p>Bundler looks in a project’s “Gemfile” (no file extension) to see which gems are required by the project. The Gemfile lists the source and then any gems, like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source "https://rubygems.org"
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source "https://rubygems.org"
 
 gem 'github-pages'
 gem 'jekyll'
@@ -843,29 +843,29 @@ gem 'jekyll'
 
 <p>Here no versions are specified. Sometimes gemfiles will specify the versions like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'kramdown', '1.0'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'kramdown', '1.0'
 </code></pre></div></div>
 
 <p>This means Bundler should get version 1.0 of the kramdown gem.</p>
 
 <p>To specify a subset of versions, the Gemfile looks like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'jekyll', '~&gt; 2.3'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'jekyll', '~&gt; 2.3'
 </code></pre></div></div>
-<p>The <code class="highlighter-rouge">~&gt;</code> sign means greater than or equal to the <em>last digit before the last period in the number</em>.</p>
+<p>The <code class="language-plaintext highlighter-rouge">~&gt;</code> sign means greater than or equal to the <em>last digit before the last period in the number</em>.</p>
 
 <p>Here it will get any gem equal to 2.3 but less than 3.0.</p>
 
 <p>If it adds another digit, the scope is affected:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem `jekyll`, `~&gt;2.3.1'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem `jekyll`, `~&gt;2.3.1'
 </code></pre></div></div>
 
 <p>This means to get any gem equal to 2.3.1 but less than 2.4.</p>
 
 <p>If it looks like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'jekyll', '~&gt; 3.0', '&gt;= 3.0.3'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'jekyll', '~&gt; 3.0', '&gt;= 3.0.3'
 </code></pre></div></div>
 
 <p>This will get any Jekyll gem between versions 3.0 and up to 3.0.3.</p>
@@ -876,7 +876,7 @@ gem 'jekyll'
 
 <p>After Bundler retrieves and installs the gems, it makes a detailed list of all the gems and versions it has installed for your project. The snapshot of all gems + versions installed is stored in your Gemfile.lock file, which might look like this:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GEM
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GEM
   remote: https://rubygems.org/
   specs:
     RedCloth (4.2.9)
@@ -1009,7 +1009,7 @@ BUNDLED WITH
    1.11.2
 </code></pre></div></div>
 
-<p>You can always delete the Gemlock file and run Bundle install again to get the latest versions. You can also run <code class="highlighter-rouge">bundle update</code>, which will ignore the Gemlock file to get the latest versions of each gem.</p>
+<p>You can always delete the Gemlock file and run Bundle install again to get the latest versions. You can also run <code class="language-plaintext highlighter-rouge">bundle update</code>, which will ignore the Gemlock file to get the latest versions of each gem.</p>
 
 <p>To learn more about Bundler, see <a href="http://bundler.io/rationale.html">Bundler’s Purpose and Rationale</a>.</p>
 
@@ -1045,8 +1045,8 @@ BUNDLED WITH
 <footer>
             <div class="row">
                 <div class="col-lg-12 footer">
-               &copy;2020 Your company. All rights reserved. <br />
- Site last generated: Feb 8, 2020 <br />
+               &copy;2020 Fred Siika Consulting. All rights reserved. <br />
+ Site last generated: Feb 9, 2020 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>
@@ -1062,12 +1062,5 @@ BUNDLED WITH
     </div>
 
 </body>
-
-<!-- the google_analytics_id gets auto inserted from the config file -->
-
-
-
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-66296557-1','auto');ga('require','displayfeatures');ga('send','pageview');</script>
-
 
 </html>

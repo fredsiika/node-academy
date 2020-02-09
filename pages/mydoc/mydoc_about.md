@@ -1,15 +1,16 @@
 ---
-title: About the theme's author
+title: About the author of this course
 keywords: documentation theme, jekyll, technical writers, help authoring tools, hat replacements
-last_updated: July 3, 2016
+last_updated: Feb 9, 2020
 tags: [getting_started]
-summary: "I have used this theme for projects that I've worked on as a professional technical writer."
+summary: "A brief of Fred Siika's experience as a software engineer."
 sidebar: mydoc_sidebar
 permalink: mydoc_about.html
 folder: mydoc
+hide_sidebar: false
 ---
 
-My name is Tom Johnson, and I'm a technical writer, blogger, and podcaster based in San Jose, California. For more details, see my [technical writing blog](http://idratherbewriting.com) and my [course on API documentation](http://idratherbewriting.com/learnapidoc/).  See [my blog's about page](http://idratherbewriting.com/aboutme/) for more details about me.
+My name is Fred Siika, and I'm a software engineer, technical writer, and Node.js enthusiast based in Dallas, Texas. For more details, stop by [GitHub page](http://github.com/fredsiika/) and my [course on Node.js](http://fredsiika.github.io/node-academy/).  See [my LinkedIn](http://linkedin.com/in/fredsiika/) for more details about me.
 
 I have used this theme and variations of it for various documentation projects. This theme has undergone several major iterations, and now it's fairly stable and full of all the features that I need. You are welcome to use it for your documentation projects for free.
 

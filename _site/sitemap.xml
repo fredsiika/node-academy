@@ -548,4 +548,22 @@
   </url>
   
   
+  
+  <url>
+    <loc>http://localhost:4000/Section-1/resources/guides/create-web-server.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/Section-1/resources/guides/guide.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/Section-1/resources/guides/outline.html</loc>
+  </url>
+  
+  
 </urlset>

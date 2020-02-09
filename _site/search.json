@@ -17,11 +17,11 @@
 
 
 {
-"title": "About the theme&#39;s author",
+"title": "About the author of this course",
 "tags": "getting_started",
 "keywords": "documentation theme, jekyll, technical writers, help authoring tools, hat replacements",
 "url": "mydoc_about.html",
-"summary": "I have used this theme for projects that I've worked on as a professional technical writer."
+"summary": "A brief of Fred Siika's experience as a software engineer."
 }
 ,
 
@@ -926,6 +926,39 @@
 "tags": "",
 "keywords": "",
 "url": "assetscssstyle.css",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Build a Simple Web Server in Node.js",
+"tags": "",
+"keywords": "",
+"url": "Section-1resourcesguidescreate-web-server.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Node Academy",
+"tags": "",
+"keywords": "",
+"url": "Section-1resourcesguidesguide.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Build a Dad Jokes Generator CLI",
+"tags": "",
+"keywords": "",
+"url": "Section-1resourcesguidesoutline.html",
 "summary": ""
 }
 ,
