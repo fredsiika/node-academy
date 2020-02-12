@@ -19,10 +19,10 @@ app.config = {
 // Function that prints a random joke
 app.printAJoke = function(){
 
-    // Get all the jokes
+    // Get array of all the jokes
     var allJokes = jokesLib.allJokes();
 
-    // Get the length of the jokes
+    // Get the length of the jokes array
     var numberOfJokes = allJokes.length;
 
     // Pick a random number between 1 and the number of jokes
