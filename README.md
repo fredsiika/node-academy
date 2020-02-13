@@ -83,7 +83,7 @@ Our filesystem structure will look like this:
 
 **Resources**
 
-- [Tutorial Guide:](https://github.com/fredsiika/node-academy/blob/master/Section-1/resources/guide.md) Use [`guide.md`](https://github.com/fredsiika/node-academy/blob/master/Section-1/resources/guide.md), the step-by-step instruction guide.
+- [Tutorial Guide:](https://github.com/fredsiika/node-academy/blob/gh-pages/Section-1/resources/guides/create-index-guide.md) Use [`guide.md`](https://github.com/fredsiika/node-academy/blob/gh-pages/Section-1/resources/guides/create-index-guide.md), the step-by-step instruction guide.
 
 Our project will contain the following files:
 
