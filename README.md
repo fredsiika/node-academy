@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Build a Dad Jokes Generator CLI
+permalink: index.html
 ---
 
 # Build a Dad Jokes Generator CLI
