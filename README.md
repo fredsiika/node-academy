@@ -1,3 +1,8 @@
+---
+layout: page
+title: Build a Dad Jokes Generator CLI
+---
+
 # Build a Dad Jokes Generator CLI
 
 # Table of Contents
