@@ -5,7 +5,7 @@ last_updated: Feb 9, 2020
 tags: [getting_started]
 summary: "A brief of Fred Siika's experience as a software engineer."
 sidebar: mycourse_sidebar
-permalink: mydoc_about.html
+permalink: mycourse_outline.html
 folder: mydoc
 hide_sidebar: false
 toc: true
